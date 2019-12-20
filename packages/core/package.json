@@ -1,0 +1,38 @@
+{
+    "name": "@nger/nest",
+    "version": "0.0.0",
+    "description": "> TODO: description",
+    "author": "imeepos <1037483576@qq.com>",
+    "homepage": "https://github.com/meepobrother/nger-nest#readme",
+    "license": "ISC",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "directories": {
+        "lib": "lib",
+        "test": "__tests__"
+    },
+    "files": [
+        "lib"
+    ],
+    "publishConfig": {
+        "registry": "http://registry.npmjs.org",
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/meepobrother/nger-nest.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1"
+    },
+    "bugs": {
+        "url": "https://github.com/meepobrother/nger-nest/issues"
+    },
+    "dependencies": {
+        "@nestjs/common": "^6.10.10",
+        "@nestjs/core": "^6.10.10",
+        "@nestjs/microservices": "^6.10.12",
+        "@nestjs/platform-express": "^6.10.10",
+        "@nger/core": "^1.8.13"
+    }
+}
